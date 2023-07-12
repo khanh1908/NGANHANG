@@ -117,6 +117,7 @@ namespace NGANHANG
             Program.formMain.sslNHOM.Text = "MHOM: " + Program.mGroup;
 
             Program.formMain.barBtnTaoTaiKhoan.Enabled = true;
+            Program.formMain.barBtnDangXuat.Enabled = true;
             // Program.frmMain.rbpNV.Visible = Program.frmMain.rbpKH.Visible = Program.frmMain.rbpTK.Visible = true;
             Close();
         }
