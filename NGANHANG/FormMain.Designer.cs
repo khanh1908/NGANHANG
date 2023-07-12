@@ -41,7 +41,10 @@ namespace NGANHANG
             this.barBtnChuyenTien = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
+<<<<<<< HEAD
             this.butt = new DevExpress.XtraBars.BarButtonItem();
+=======
+>>>>>>> 73626525e248340053c515e9fe26437cda4f45cd
             this.rbHeThong = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.rbNghiepVu = new DevExpress.XtraBars.Ribbon.RibbonPage();
@@ -69,11 +72,18 @@ namespace NGANHANG
             this.barBtnChuyenTien,
             this.barButtonItem1,
             this.barButtonItem2,
+<<<<<<< HEAD
             this.butt,
             this.barButtonItem3});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
             this.ribbonControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ribbonControl1.MaxItemId = 11;
+=======
+            this.barButtonItem3});
+            this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
+            this.ribbonControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ribbonControl1.MaxItemId = 10;
+>>>>>>> 73626525e248340053c515e9fe26437cda4f45cd
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.rbHeThong,
@@ -142,6 +152,7 @@ namespace NGANHANG
             this.barButtonItem2.Caption = "aaaaaaaaaaa";
             this.barButtonItem2.Id = 8;
             this.barButtonItem2.Name = "barButtonItem2";
+<<<<<<< HEAD
             this.barButtonItem2.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem2_ItemClick);
             // 
             // butt
@@ -150,6 +161,8 @@ namespace NGANHANG
             this.butt.Id = 9;
             this.butt.Name = "butt";
             this.butt.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.butt_ItemClick);
+=======
+>>>>>>> 73626525e248340053c515e9fe26437cda4f45cd
             // 
             // rbHeThong
             // 
@@ -218,8 +231,13 @@ namespace NGANHANG
             // 
             // barButtonItem3
             // 
+<<<<<<< HEAD
             this.barButtonItem3.Caption = "barButtonItem3";
             this.barButtonItem3.Id = 10;
+=======
+            this.barButtonItem3.Caption = "ttttt";
+            this.barButtonItem3.Id = 9;
+>>>>>>> 73626525e248340053c515e9fe26437cda4f45cd
             this.barButtonItem3.Name = "barButtonItem3";
             // 
             // FrmMain
@@ -256,9 +274,13 @@ namespace NGANHANG
         private DevExpress.XtraBars.BarButtonItem barBtnChuyenTien;
         private DevExpress.XtraBars.BarButtonItem barButtonItem1;
         private DevExpress.XtraBars.BarButtonItem barButtonItem2;
+<<<<<<< HEAD
         private DevExpress.XtraBars.BarButtonItem butt;
         private BarItem aa;
         private BarButtonItem barButtonItem3;
+=======
+        private DevExpress.XtraBars.BarButtonItem barButtonItem3;
+>>>>>>> 73626525e248340053c515e9fe26437cda4f45cd
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup3;
     }
 }
