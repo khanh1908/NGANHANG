@@ -38,6 +38,7 @@ namespace NGANHANG
             this.barBtnGuiTien = new DevExpress.XtraBars.BarButtonItem();
             this.barBtnChuyenTien = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
             this.rbHeThong = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.rbNghiepVu = new DevExpress.XtraBars.Ribbon.RibbonPage();
@@ -46,7 +47,7 @@ namespace NGANHANG
             this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.rbBaoCao = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup5 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
+            this.butt = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -63,10 +64,11 @@ namespace NGANHANG
             this.barBtnGuiTien,
             this.barBtnChuyenTien,
             this.barButtonItem1,
-            this.barButtonItem2});
+            this.barButtonItem2,
+            this.butt});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
             this.ribbonControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.ribbonControl1.MaxItemId = 9;
+            this.ribbonControl1.MaxItemId = 10;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.rbHeThong,
@@ -130,6 +132,13 @@ namespace NGANHANG
             this.barButtonItem1.Id = 7;
             this.barButtonItem1.Name = "barButtonItem1";
             // 
+            // barButtonItem2
+            // 
+            this.barButtonItem2.Caption = "aaaaaaaaaaa";
+            this.barButtonItem2.Id = 8;
+            this.barButtonItem2.Name = "barButtonItem2";
+            this.barButtonItem2.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem2_ItemClick);
+            // 
             // rbHeThong
             // 
             this.rbHeThong.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
@@ -172,6 +181,7 @@ namespace NGANHANG
             // 
             this.ribbonPageGroup4.ItemLinks.Add(this.barButtonItem1);
             this.ribbonPageGroup4.ItemLinks.Add(this.barButtonItem2);
+            this.ribbonPageGroup4.ItemLinks.Add(this.butt);
             this.ribbonPageGroup4.Name = "ribbonPageGroup4";
             this.ribbonPageGroup4.Text = "ribbonPageGroup4";
             // 
@@ -188,11 +198,12 @@ namespace NGANHANG
             this.ribbonPageGroup5.Name = "ribbonPageGroup5";
             this.ribbonPageGroup5.Text = "ribbonPageGroup5";
             // 
-            // barButtonItem2
+            // butt
             // 
-            this.barButtonItem2.Caption = "aaaaaaaaaaa";
-            this.barButtonItem2.Id = 8;
-            this.barButtonItem2.Name = "barButtonItem2";
+            this.butt.Caption = "button khánh";
+            this.butt.Id = 9;
+            this.butt.Name = "butt";
+            this.butt.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.butt_ItemClick);
             // 
             // FrmMain
             // 
@@ -228,6 +239,7 @@ namespace NGANHANG
         private DevExpress.XtraBars.BarButtonItem barBtnChuyenTien;
         private DevExpress.XtraBars.BarButtonItem barButtonItem1;
         private DevExpress.XtraBars.BarButtonItem barButtonItem2;
+        private DevExpress.XtraBars.BarButtonItem butt;
     }
 }
 
