@@ -9,19 +9,24 @@ using System.Windows.Forms;
 
 namespace NGANHANG
 {
-    public partial class FrmMain : DevExpress.XtraBars.Ribbon.RibbonForm
+    public partial class FormMain : DevExpress.XtraBars.Ribbon.RibbonForm
     {
-        public FrmMain()
+        public FormMain()
         {
             InitializeComponent();
+            this.IsMdiContainer = true;
         }
+
         public Form checkExist(Type ftype)
         {
-            foreach (Form f in MdiChildren)
+            foreach (Form f in Application.OpenForms)
+            {
                 if (f.GetType() == ftype)
                     return f;
+            }    
             return null;
         }
+
         private void barBtnDangNhap_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             Form form = checkExist(typeof(FormLogin));
@@ -31,19 +36,16 @@ namespace NGANHANG
             {
                 
                 FormLogin childForm = new FormLogin();
-                childForm.MdiParent = this;
+                childForm.MdiParent = this.MdiParent;
                 childForm.Show();
             }
         }
 
-        private void barButtonItem2_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        private void barBtnTaoTaiKhoan_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
 
         }
 
-        private void butt_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
-        {
-
-        }
+       
     }
 }
