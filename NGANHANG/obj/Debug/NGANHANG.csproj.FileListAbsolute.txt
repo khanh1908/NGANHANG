@@ -46,7 +46,6 @@ C:\Users\Thi Binh\Desktop\NGANHANG\NGANHANG\bin\Debug\ja\DevExpress.Pdf.v19.2.Co
 C:\Users\Thi Binh\Desktop\NGANHANG\NGANHANG\bin\Debug\ru\DevExpress.Pdf.v19.2.Core.resources.dll
 C:\Users\Thi Binh\Desktop\NGANHANG\NGANHANG\obj\Debug\NGANHANG.csproj.AssemblyReference.cache
 C:\Users\Thi Binh\Desktop\NGANHANG\NGANHANG\obj\Debug\NGANHANG.FormLogin.resources
-C:\Users\Thi Binh\Desktop\NGANHANG\NGANHANG\obj\Debug\NGANHANG.FrmMain.resources
 C:\Users\Thi Binh\Desktop\NGANHANG\NGANHANG\obj\Debug\NGANHANG.Properties.Resources.resources
 C:\Users\Thi Binh\Desktop\NGANHANG\NGANHANG\obj\Debug\NGANHANG.csproj.GenerateResource.cache
 C:\Users\Thi Binh\Desktop\NGANHANG\NGANHANG\obj\Debug\NGANHANG.exe.licenses
@@ -110,3 +109,4 @@ D:\NAM4-HK3\CSDLPT\NGANHANG\NGANHANG\NGANHANG\bin\Debug\es\DevExpress.Pdf.v19.2.
 D:\NAM4-HK3\CSDLPT\NGANHANG\NGANHANG\NGANHANG\bin\Debug\ja\DevExpress.Pdf.v19.2.Core.resources.dll
 D:\NAM4-HK3\CSDLPT\NGANHANG\NGANHANG\NGANHANG\bin\Debug\ru\DevExpress.Pdf.v19.2.Core.resources.dll
 D:\NAM4-HK3\CSDLPT\NGANHANG\NGANHANG\NGANHANG\obj\Debug\NGANHANG.csproj.CopyComplete
+C:\Users\Thi Binh\Desktop\NGANHANG\NGANHANG\obj\Debug\NGANHANG.FormMain.resources

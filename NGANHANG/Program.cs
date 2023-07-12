@@ -14,7 +14,7 @@ namespace NGANHANG
 
         public static SqlConnection conn = new SqlConnection();
         public static string connstr = "";
-        public static string connstr_publisher = "Data Source=DESKTOP-HAE7JHJ;Initial Catalog=NGANHANG;User ID=sa;Pwd=123";
+        public static string connstr_publisher = "Data Source=LAPTOP-8SBAMO62;Initial Catalog=NGANHANG;User ID=sa;Pwd=123456";
 
         public static SqlDataReader myReader;
         public static string servername = "";
