@@ -34,6 +34,9 @@ namespace NGANHANG
             this.barBtnDangNhap = new DevExpress.XtraBars.BarButtonItem();
             this.barBtnTaoTaiKhoan = new DevExpress.XtraBars.BarButtonItem();
             this.barBtnDangXuat = new DevExpress.XtraBars.BarButtonItem();
+            this.barBtnRutTien = new DevExpress.XtraBars.BarButtonItem();
+            this.barBtnGuiTien = new DevExpress.XtraBars.BarButtonItem();
+            this.barBtnChuyenTien = new DevExpress.XtraBars.BarButtonItem();
             this.rbHeThong = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.rbNghiepVu = new DevExpress.XtraBars.Ribbon.RibbonPage();
@@ -42,9 +45,7 @@ namespace NGANHANG
             this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.rbBaoCao = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup5 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.barBtnRutTien = new DevExpress.XtraBars.BarButtonItem();
-            this.barBtnGuiTien = new DevExpress.XtraBars.BarButtonItem();
-            this.barBtnChuyenTien = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -59,10 +60,11 @@ namespace NGANHANG
             this.barBtnDangXuat,
             this.barBtnRutTien,
             this.barBtnGuiTien,
-            this.barBtnChuyenTien});
+            this.barBtnChuyenTien,
+            this.barButtonItem1});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
             this.ribbonControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.ribbonControl1.MaxItemId = 7;
+            this.ribbonControl1.MaxItemId = 8;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.rbHeThong,
@@ -95,6 +97,30 @@ namespace NGANHANG
             this.barBtnDangXuat.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barBtnDangXuat.ImageOptions.Image")));
             this.barBtnDangXuat.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barBtnDangXuat.ImageOptions.LargeImage")));
             this.barBtnDangXuat.Name = "barBtnDangXuat";
+            // 
+            // barBtnRutTien
+            // 
+            this.barBtnRutTien.Caption = "Rút tiền";
+            this.barBtnRutTien.Id = 4;
+            this.barBtnRutTien.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barBtnRutTien.ImageOptions.Image")));
+            this.barBtnRutTien.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barBtnRutTien.ImageOptions.LargeImage")));
+            this.barBtnRutTien.Name = "barBtnRutTien";
+            // 
+            // barBtnGuiTien
+            // 
+            this.barBtnGuiTien.Caption = "Gửi tiền";
+            this.barBtnGuiTien.Id = 5;
+            this.barBtnGuiTien.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barBtnGuiTien.ImageOptions.Image")));
+            this.barBtnGuiTien.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barBtnGuiTien.ImageOptions.LargeImage")));
+            this.barBtnGuiTien.Name = "barBtnGuiTien";
+            // 
+            // barBtnChuyenTien
+            // 
+            this.barBtnChuyenTien.Caption = "Chuyển tiền";
+            this.barBtnChuyenTien.Id = 6;
+            this.barBtnChuyenTien.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barBtnChuyenTien.ImageOptions.Image")));
+            this.barBtnChuyenTien.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barBtnChuyenTien.ImageOptions.LargeImage")));
+            this.barBtnChuyenTien.Name = "barBtnChuyenTien";
             // 
             // rbHeThong
             // 
@@ -136,6 +162,7 @@ namespace NGANHANG
             // 
             // ribbonPageGroup4
             // 
+            this.ribbonPageGroup4.ItemLinks.Add(this.barButtonItem1);
             this.ribbonPageGroup4.Name = "ribbonPageGroup4";
             this.ribbonPageGroup4.Text = "ribbonPageGroup4";
             // 
@@ -152,29 +179,11 @@ namespace NGANHANG
             this.ribbonPageGroup5.Name = "ribbonPageGroup5";
             this.ribbonPageGroup5.Text = "ribbonPageGroup5";
             // 
-            // barBtnRutTien
+            // barButtonItem1
             // 
-            this.barBtnRutTien.Caption = "Rút tiền";
-            this.barBtnRutTien.Id = 4;
-            this.barBtnRutTien.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem1.ImageOptions.Image")));
-            this.barBtnRutTien.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem1.ImageOptions.LargeImage")));
-            this.barBtnRutTien.Name = "barBtnRutTien";
-            // 
-            // barBtnGuiTien
-            // 
-            this.barBtnGuiTien.Caption = "Gửi tiền";
-            this.barBtnGuiTien.Id = 5;
-            this.barBtnGuiTien.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem2.ImageOptions.Image")));
-            this.barBtnGuiTien.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem2.ImageOptions.LargeImage")));
-            this.barBtnGuiTien.Name = "barBtnGuiTien";
-            // 
-            // barBtnChuyenTien
-            // 
-            this.barBtnChuyenTien.Caption = "Chuyển tiền";
-            this.barBtnChuyenTien.Id = 6;
-            this.barBtnChuyenTien.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem3.ImageOptions.Image")));
-            this.barBtnChuyenTien.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem3.ImageOptions.LargeImage")));
-            this.barBtnChuyenTien.Name = "barBtnChuyenTien";
+            this.barButtonItem1.Caption = "abccccc";
+            this.barButtonItem1.Id = 7;
+            this.barButtonItem1.Name = "barButtonItem1";
             // 
             // FrmMain
             // 
@@ -208,6 +217,7 @@ namespace NGANHANG
         private DevExpress.XtraBars.BarButtonItem barBtnRutTien;
         private DevExpress.XtraBars.BarButtonItem barBtnGuiTien;
         private DevExpress.XtraBars.BarButtonItem barBtnChuyenTien;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem1;
     }
 }
 
